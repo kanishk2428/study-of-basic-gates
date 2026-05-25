@@ -63,23 +63,34 @@ Y= A⊕B
 
 
 **PROGRAM**
-<img width="388" height="232" alt="Screenshot 2025-10-16 113954" src="https://github.com/user-attachments/assets/b6bcbeb2-ac5e-444c-aad2-4388184916d6" />
-
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: UDHAYDHARSHAN S
+ RegisterNumber: 212225230286
+```
+module Exp1(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+input a,b;
+output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
+and(Y1,a,b);
+or(Y2,a,b);
+not(Y3,a);
+xor(Y4,a,b);
+nand(Y5,a,b);
+nor(Y6,a,b);
+xnor(Y7,a,b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
+<img width="907" height="771" alt="image" src="https://github.com/user-attachments/assets/4bc1f3c2-d95d-49d2-b1cb-01635d5bd718" />
 
 **RTL realization Output:** 
-<img width="657" height="352" alt="Screenshot 2025-10-16 161042" src="https://github.com/user-attachments/assets/ff56ac04-ce63-4bca-9e1a-40dee5d2b757" />
-
+<img width="627" height="513" alt="Screenshot 2026-05-24 182959" src="https://github.com/user-attachments/assets/a829739c-646d-4e52-bfd9-ac2439322f84" />
 
 **RTL**
-<img width="631" height="354" alt="Screenshot 2025-10-16 161101" src="https://github.com/user-attachments/assets/c47197c8-87bd-4d9c-92fc-3ef602245afd" />
-
+<img width="1169" height="592" alt="Screenshot 2026-05-21 140319" src="https://github.com/user-attachments/assets/6283b70f-976a-436c-b9c2-7ee0e7e8cd2e" />
 
 **Result:**
 
-
+Thus the truth table of logic gate are verified using Quartus II using Verilog programming.
